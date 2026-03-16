@@ -27,4 +27,4 @@ jobs:
         uses: anomalyco/opencode/github@latest
         with:
           model: google/gemini-3-pro
-          token: ${{ secrets.GITHUB_TOKEN }}
+          use_github_token: true
