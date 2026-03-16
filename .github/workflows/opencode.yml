@@ -28,5 +28,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          model: google/gemini-3-pro
+          model: github-copilot/gemini-3-pro-preview
           use_github_token: true
