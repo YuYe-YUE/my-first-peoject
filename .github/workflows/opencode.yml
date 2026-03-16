@@ -28,5 +28,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          model: github-copilot/gemini-3-pro-preview
+          model: opencode/big-pickle
           use_github_token: true
