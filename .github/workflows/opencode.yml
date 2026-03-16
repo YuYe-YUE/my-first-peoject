@@ -26,5 +26,5 @@ jobs:
       - name: Run OpenCode
         uses: anomalyco/opencode/github@latest
         with:
-          model: github-copilot/claude-sonnet-4
+          model: google/gemini-3-pro
           token: ${{ secrets.GITHUB_TOKEN }}
